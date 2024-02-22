@@ -80,7 +80,7 @@ public class ABManager {
 
         await self.cache.setValue(nil, forKey: keyString)
 
-        guard let url = URL(string: "https://raw.githubusercontent.com/BBC6BAE9/ab/main/xptv.json") else {
+        guard let url = URL(string: abConfigFileURLString) else {
             print("Invalid URL")
             return
         }

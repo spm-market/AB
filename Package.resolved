@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "cache",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/spm-market/Cache",
+      "state" : {
+        "revision" : "0cec9cd4f4fda131bff15d086698b5107ba95810",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
