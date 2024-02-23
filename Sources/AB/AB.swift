@@ -16,7 +16,7 @@ public class ABManager {
     public var identifier = ""
     
     var abConfigFileURLString: String {
-        "https://raw.githubusercontent.com/spm-market/AB/main/files/\(identifier).json"
+        "https://mirror.ghproxy.com/https://raw.githubusercontent.com/spm-market/AB/main/files/\(identifier).json"
     }
     
     private let cache = DiskCache<Data>(filename:"ab", expirationInterval: 30 * 24 * 60 * 60)
